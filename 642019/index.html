@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        h1{
+            color:blue;
+        }
+        /* phone */
+        @media(max-width: 767px)
+        {
+            h1{
+                display:none;
+            }
+
+        }
+        /* display ko block lox htar yin hello ko myin ya tar */
+        /* tablet */
+        @media(min-width:768px) and (max-width:991px){
+            h1{
+                display: none;
+
+            }
+        }
+
+        @media(min-width:992px)and(max-width:1999px){
+            h1{
+                color:cadetblue;
+            }
+        }
+
+        @media(min-width:1200px){
+            h1{
+                color:fuchsia;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1>Hello</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed facilis eum quia fugit quaerat facere expedita exercitationem, voluptatem vel totam repudiandae et esse deleniti quo dolorem modi adipisci aperiam reiciendis!</p>
+</body>
+</html>

@@ -1,0 +1,25 @@
+
+.header{
+    padding : 50px 0px;
+}
+.navigation{
+    background-color: purple;
+    padding: 20px 0px;
+}
+
+.navigation a{
+    color:white;
+}
+
+.navigation ul{
+    margin-bottom:0px;
+}
+
+.footer{
+    background :black;
+    color:white;
+    padding:80px 0px;
+}
+.content{
+    margin:50px 0px 50px 0px;
+}
