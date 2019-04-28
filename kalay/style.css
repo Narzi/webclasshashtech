@@ -1,85 +1,70 @@
 .hero {
-    color:white;
-    background: url('home-bg.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 41vh 0;
-        
-}
+  color: black;
+  background: url("home-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 41vh 0; }
 
-.button{
-    background:black;
-    color: white;
-}
+.button {
+  background: black;
+  color: red; }
 
+.button:hover {
+  background: white;
+  color: black; }
 
+.skill {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #f9f9f9; }
 
-.button:hover{
-    background: white;
-    color:black;
-}
+.skill-pad {
+  padding-top: 80px;
+  padding-bottom: 0px; }
 
+.skill-bordered {
+  padding: 5px 37px;
+  background: white;
+  border-radius: 5px;
+  min-height: 320px; }
 
-.skill{
-    padding-top:80px;
-    padding-bottom:80px;
-    background: #f9f9f9;;
-}
+.about {
+  padding: 80px 0px;
+  text-align: center; }
 
-.skill-pad{
-    padding-top:80px;
-    padding-bottom:0px;
-}
-.skill-bordered{
-    padding: 5px 37px;    
-    background: white;
-    border-radius: 5px;
-    min-height: 320px;
-}
-
-.about{
-    padding:80px 0px;
-    text-align: center;
-}
 /* .about col-md-8{
     width:66.7%
 } */
-.about img{
-    width: 104%;
-    border-radius: 6px
-}
+.about img {
+  width: 104%;
+  border-radius: 6px; }
 
-.selected-text{
+.selected-text {
+  text-align: center;
+  padding: 80px 0px; }
 
-    text-align:center;
-    padding:80px 0px;
-}
+.selected-design {
+  background: #f9f9f9; }
 
-.selected-design{
-    background:#f9f9f9;
-}
+.selected-design img {
+  width: 100%; }
 
-.selected-design img{
-    width:100%;
-}
+.content-header {
+  text-align: center;
+  padding-bottom: 60px; }
 
-.content-header{
-    text-align: center;
-    padding-bottom: 60px;
-}
-.content{
-    padding: 80px;
-    background-color:white;
-}
-.footer{
-    padding:200px;
-    background-color:#7682cc;
-}
-.footer-text{
-    text-align: center;
-    color:white;
-}
-.selected-pad{
-    padding-top:80px;
-}
+.content {
+  padding: 80px;
+  background-color: white; }
+
+.footer {
+  padding: 200px;
+  background-color: #7682cc; }
+
+.footer-text {
+  text-align: center;
+  color: white; }
+
+.selected-pad {
+  padding-top: 80px; }
