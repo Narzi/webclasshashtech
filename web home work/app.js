@@ -17,9 +17,9 @@ for(var a=1;a<=100;a++){
 			if(a%3!=0 && a%5!=0){
 		document.write("<p>" +  "$x"  + "</p>" );
 	}
+}
 	
-	
-			// star
+// star
 	for(var b=1;b<=5;b++){
 		for(var c=1;c<=b;c++){
 		document.write("*");
@@ -28,7 +28,7 @@ for(var a=1;a<=100;a++){
 	}
 
 
-}
+
 	
 	
 
